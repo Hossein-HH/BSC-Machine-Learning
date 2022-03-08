@@ -311,7 +311,7 @@ Implementation Machine Learning course codes with Dr.Mohsen Rahmanian
 
 
 ## Badges
-Jahrom University : [jahromu.ac.ir](https://jahromu.ac.ir/fa)
+Jahrom University : [jahromu.ac.ir](https://jahromu.ac.ir/en)
 
 [comment]: <> (Add badges from somewhere like: [shields.io]&#40;https://shields.io/&#41;)
 

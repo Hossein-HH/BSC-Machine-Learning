@@ -1,1 +1,0 @@
-1.why linalg.inv & ones funcs add '.' after numbers in matrixes >

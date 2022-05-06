@@ -1,5 +1,5 @@
-from cProfile import label
 import numpy as np
+import matplotlib.pyplot as plt
 
 dataset = np.array([
     (1, 80),
@@ -47,8 +47,6 @@ w_hat, loss = gradient_descent(xx, y, w, 800, 0.01)
 print(f'My weights: {w_hat[:, 0]}')
 w_star = np.linalg.inv(xx.T @ xx) @ xx.T @ y
 print(f'Math weights: {w_star[:, 0]}')
-
-import matplotlib.pyplot as plt
 
 plt.plot(dataset[:, 0], dataset[:, 1], 'g*')
 x = np.linspace(0.5, 6, 100).reshape(-1, 1)
